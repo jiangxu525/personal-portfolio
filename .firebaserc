@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "xu-jiang": {
+      "hosting": {
+        "front-personal": [
+          "xu-jiang"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "xu-jiang"
+  }
+}

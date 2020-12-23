@@ -1,0 +1,39 @@
+:host {
+  width: 100%;
+}
+
+.home-container {
+  width: 100%;
+  height: 80vh;
+  background-color: rosybrown;
+  div {
+    padding: 30px;
+    &.image-container {
+      background-color: royalblue;
+    }
+
+    &.home-text-container {
+      h1 {
+        font-size: calc(22px + (70 - 22) * ((100vw - 300px) / (1920 - 300)));
+        color: #1f232c;
+        font-weight: 400;
+
+        &.greeting {
+          font-weight: 600;
+        }
+      }
+
+      .title {
+        font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300)));
+        color: #676767;
+      }
+    }
+
+    .home-action-wrapper{
+      padding: 0px;
+    }
+
+  }
+}
+
+
